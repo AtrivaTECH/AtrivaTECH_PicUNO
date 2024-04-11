@@ -1,3 +1,10 @@
+/*
+  AtrivaTECH_PicUNO.cpp - consists of function definitions specifically curated for the PicUNO RP2040 board
+  by AtrivaTECH
+  Created by Atul Ravi, April 8, 2024.
+  Released into the public domain.
+*/
+
 #include "Arduino.h"
 #include "AtrivaTECH_PicUNO.h"
 void picuno::setit() 
