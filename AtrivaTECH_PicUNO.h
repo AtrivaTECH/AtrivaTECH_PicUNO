@@ -9,15 +9,15 @@
 
 #include "Arduino.h"
 
-#define LED_BUILTIN  14 //Defining 14 as LED-BUILTIN
+#define LED_BUILTIN  14 //Defining 14 as LED-BUILTIN. Overwrites original Board definitions
 
 class picuno
 {
   public:
-    void lvlpins();
-    void setit();
+    void lvlpins(); //Fn for defining that levelshiftable pins exist
+    void setit(); //Fn for setting levelshiftable pins LOW. 
   private:
-    int _pin;
+    int _pin; //Redundant as of now.
 };
 
 #endif
