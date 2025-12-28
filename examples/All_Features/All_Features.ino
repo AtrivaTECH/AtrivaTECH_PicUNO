@@ -16,7 +16,7 @@
   DEPECNDENCIES: This library requires the Adafruit_NeoPixel library which can be downloaded from 
   Arduino Library Manager or from: https://github.com/adafruit/Adafruit_NeoPixel
 
-  Written by Atul Ravi, 2024 for AtrivaTECH, ESCcrasci (Units Of It's ON Group Of Companies).
+  Written by Atul Ravi, 2024 for AtrivaTECH, ESCcrasci (Units Of Atrivatech P Ltd..
 
   This example code is in the public domain.
   https://www.github.com/AtrivaTECH/AtrivaTECH_PicUNO
@@ -84,4 +84,5 @@ void loop() {
   } else {
     digitalWrite(LED_BUILTIN, LOW);
   }
+
 }
